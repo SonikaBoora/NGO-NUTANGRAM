@@ -3,14 +3,89 @@
     padding: 0;
 }
 
+body{
+    font-family: "Times New Roman", Times, serif;
+}
+
+#custom-height{
+    height: 20px;
+}
+
 #logo-img{
     width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
 }
 
 #mynavbar ul li{
     margin-right: 50px;
 }
 
-.mynavbar{
+/* #carouselExampleFade {
+  height: 400px; Adjust the height as needed
+}
 
+#carouselExampleFade .carousel-item img {
+  height: 100%; Fill the entire height of the carousel container
+  object-fit: cover; Ensure the image covers the entire space
+} */
+
+
+
+/* Support */
+.don{
+    text-align: center;
+}
+
+#support{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2vh 10vw;
+    font-size: 25px;
+    white-space: nowrap;
+    color: orange;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 5px solid orange;
+    position: relative;
+    overflow: hidden;
+    transition: all linear 0.5s;
+    background: transparent;
+}
+
+#support::after{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: all linear 0.5s;
+    z-index: -1;
+}
+
+#support:hover::after{
+    transform: translate(-50%,-50%) scale(10);
+}
+
+#support:hover{
+    color: white;
+    z-index: 0;
+}
+
+@media screen and (max-width:700px){
+
+    #support{
+        padding:1vh 5vw;
+        font-size: 20px;
+    }
+}
+
+
+.about-img{
+    width: 80%;
 }
