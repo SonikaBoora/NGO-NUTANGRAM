@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo-img{
+    width: 80px;
+}
+
+#mynavbar ul li{
+    margin-right: 50px;
+}
+
+.mynavbar{
+
+}
