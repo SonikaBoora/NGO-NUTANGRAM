@@ -126,3 +126,53 @@ body {
     font-size: 50px;
     font-weight: 700;
 }
+    /* footer */
+    footer {
+      background-color: #28334AFF;
+      overflow-x: hidden;
+      padding: 20px;
+      color: #fff;
+  }
+  footer p {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 15px;
+      margin-bottom: 10px;
+  }
+  .tag ul li a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 15px;
+
+  }
+  .fdiv {
+      padding-bottom: 20px;
+  }
+  .office h1, .office p {
+      margin: 0;
+  }
+  .div2 {
+      padding-top: 20px;
+  }
+  .div2 a {
+      font-size: 30px;
+      margin-right: 10px;
+  }
+
+  .fh1{
+      font-size: 12px;
+  }
+  
+  @media(min-width: 768px) {
+      .list{
+          margin: 20px 0px;
+      }
+      .office{
+          margin: 20px 0px;
+      }
+      .div2 {
+          padding-left: 0;
+      }
+      .para{
+          margin: 20px 0px;
+      }
+  }
