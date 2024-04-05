@@ -97,6 +97,10 @@ body {
 .about-image :hover img {
   transform: scale(1.2);
 }
+.aimg{
+  border: 1px solid gray;
+  border-radius: 10px;
+}
 .about-content {
   flex: 1;
 }
