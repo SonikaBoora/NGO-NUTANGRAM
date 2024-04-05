@@ -1,81 +1,128 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: "Times New Roman", Times, serif;
+body {
+  font-family: "Baloo 2", sans-serif;
 }
 
-.navbar{
-    background-color: #f86e75;
+.navbar {
+  background-color: #f86e75;
 }
 
-#logo-img{
-    width: 60px;
-    height: 60px;
-    background-color: white;
-    border-radius: 50%;
+#logo-img {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
 }
 
-#mynavbar ul li{
-    margin-right: 50px;
+#mynavbar ul li {
+  margin-right: 50px;
+}
+
+#mynavbar ul li a {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#text-ngo {
+  color: rgb(0, 128, 128);
+  font-weight: 600;
+  margin: auto;
+}
+
+#btn {
+  background-color: rgb(0, 128, 128);
+  color: white;
+  font-weight: 800;
+}
+
+.scaption {
+  background-color: rgba(0, 128, 128, 0.642);
+    border-radius: 20px;
 }
 
 
 /* Support */
-.don{
-    text-align: center;
+.don {
+  text-align: center;
 }
 
-#support{
-    margin-top: 2%;
-    margin-bottom: 2%;
-    padding: 2vh 10vw;
-    font-size: 25px;
-    white-space: nowrap;
-    color: orange;
+#support {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2vh 10vw;
+  font-size: 25px;
+  white-space: nowrap;
+  color: orange;
+  font-weight: 600;
+  border-radius: 50px;
+  border: 5px solid orange;
+  position: relative;
+  overflow: hidden;
+  transition: all linear 0.5s;
+  background: transparent;
+}
+
+#support::after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: all linear 0.5s;
+  z-index: -1;
+}
+
+#support:hover::after {
+  transform: translate(-50%, -50%) scale(10);
+}
+
+#support:hover {
+  color: white;
+  z-index: 0;
+}
+
+@media screen and (max-width: 700px) {
+  #support {
+    padding: 1vh 5vw;
+    font-size: 20px;
+  }
+}
+
+.home-ab a{
+    text-decoration: none;
+    color: rgb(0, 128, 128);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.about-sub{
+    color: #f86e75;
     font-weight: 600;
-    border-radius: 50px;
-    border: 5px solid orange;
-    position: relative;
-    overflow: hidden;
-    transition: all linear 0.5s;
-    background: transparent;
 }
 
-#support::after{
-    content: "";
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    background-color: orange;
-    border-radius: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%) scale(0);
-    transition: all linear 0.5s;
-    z-index: -1;
+.about-para {
+  text-align: left;
 }
 
-#support:hover::after{
-    transform: translate(-50%,-50%) scale(10);
+.aimg{
+    border: 1px solid gray;
+    border-radius: 10px;
 }
 
-#support:hover{
-    color: white;
-    z-index: 0;
-}
-
-@media screen and (max-width:700px){
-
-    #support{
-        padding:1vh 5vw;
-        font-size: 20px;
-    }
-}
-
-
-.about-para{
-    text-align: justify;
+.home-ev a{
+    text-decoration: none;
+    color: rgb(0, 128, 128);
+    font-size: 50px;
+    font-weight: 700;
 }
