@@ -3,17 +3,31 @@
     padding: 0;
 }
 body{
-    background-image: url(/images/bg1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+    font-family: "Times New Roman", Times, serif;
+    background-color: #ADEFD1FF;
 }
+
+.navbar{
+    background-color: #f86e75;
+}
+
+#logo-img{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#mynavbar ul li{
+    margin-right: 50px;
+}
+
 label{
     font-size: 20px;
     font-weight: 500;
 }
 form {
-    background-color:rgba(251, 220, 68, 0.478);
+    background-color: rgba(0, 128, 128, 0.525);
     padding: 20px;
     border-radius:30px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -23,15 +37,15 @@ form {
     border-radius: 10px;
     
 }
-.btn{
+.btnn{
     border-radius: 10px;
     background-color: #F65058FF;
-    color: #FBDE44FF;
+    color: cyan;
     border: 2px solid rgba(228, 70, 70, 0.915);
     font-size: 20px;
     font-weight: 700;
 }
-.btn:hover{
+.btnn:hover{
     background-color:transparent;
     color:  #F65058FF;
     border: 2px solid rgba(228, 70, 70, 0.915);
@@ -56,7 +70,7 @@ form {
 }
 .cbox{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    background-color:rgba(251, 220, 68, 0.478);
+    background-color: rgba(0, 128, 128, 0.525);
 }
 .cbox p{
     font-size: 20px;
