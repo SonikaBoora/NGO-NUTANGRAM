@@ -1,0 +1,42 @@
+  .gallery-image {
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+    object-fit: cover;
+    transition: transform .2s;
+  }
+  .gallery-image:hover{
+    opacity: 0.5;
+  }
+  .card-img-overlay {
+        transition: 0.4s ease-in-out;
+        
+      }
+ 
+      
+      .card-img-overlay h2 {
+        opacity: 0;
+        background-color: white ;
+        transform: translateY(-50%);
+        transition: 0.5s ease-in-out;
+      }
+      .card-img-overlay p {
+        opacity: 0;
+        background-color: white;
+        transform: translateY(-50%);
+        transition: 0.5s ease-in-out;
+      }
+      
+      .card:hover .card-img-overlay h2  {
+        opacity: 1;
+        transform: translateY(0);
+        /* border: 2px solid white; */
+        border-radius: inherit;
+      }
+      .card:hover .card-img-overlay p {
+        opacity: 1;
+        transform: translateY(0);
+        /* border: 2px solid white; */
+        border-radius: inherit;
+      }
+  
