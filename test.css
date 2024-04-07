@@ -1,0 +1,14 @@
+footer ul li a:hover{
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    }
+    footer .div2 i{
+    padding: 10px;
+    }
+    footer .div2 i:hover{
+      background-color: #fff;
+      color: black;
+      border-radius: 10px;
+      padding: 10px;
+    }
