@@ -44,7 +44,7 @@ body {
 }
 
 .heading {
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,281 +68,159 @@ body {
   background-color: #4caf50;
 }
 .heading p {
-  font-size: 18px;
+  font-size: 20px;
   color: #666;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
+
+/* images */
+.aimg {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
 .container {
   width: 90%;
   margin: auto;
   padding: 10px 20px;
 }
-.about {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+
+.container h2{
+  text-decoration: underline;
 }
-.about-image {
-  flex: 1;
-  margin-right: 40px;
-  overflow: hidden;
-}
-.about-image img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  transition: 0.5s ease;
-}
-.about-image :hover img {
-  transform: scale(1.2);
-}
-.aimg{
-  border: 1px solid gray;
-  border-radius: 10px;
-}
-.about-content {
-  flex: 1;
-}
+
+
+
 .about-content h2 {
-  font-size: 23px;
+  font-size: 30px;
+  font-weight: 500;
   margin-bottom: 15px;
   color: #333;
 }
 .about-content p {
-  font-size: 18px;
+  /* overflow: hidden; */
+  font-size: 20px;
   line-height: 1.5;
   color: #666;
   text-align: justify;
 }
-@media screen and (max-width: 768px) {
-  .heading {
-    padding: 0px 20px;
-  }
-  .heading h1 {
-    font-size: 36px;
-  }
-  .heading p {
-    font-size: 17px;
-    margin-bottom: 0px;
-  }
-  .container {
-    padding: 0px;
-  }
-  .about {
-    padding: 20px;
-    flex-direction: column;
-  }
-  .about-image {
-    margin-right: 0px;
-    margin-bottom: 20px;
-  }
-  .about-content p {
-    padding: 0px;
-    font-size: 16px;
-  }
-}
-.container {
-  width: 90%;
-  margin: auto;
-  padding: 10px 20px;
+.about-content .drop-cap {
+  float: right;
+  margin:0 10px;
+  padding:0 10px;
 }
 
-.content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
 
-.about-image2 {
-  flex: 1;
-  margin-left: 40px;
-  overflow: hidden;
-}
 
-.about-image2 img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  transition: 0.5s ease;
-}
-.about-image2 :hover img {
-  transform: scale(1.2);
-}
-.about-content2 {
-  flex: 1;
-}
 .about-content2 h2 {
-  font-size: 23px;
+  font-size: 30px;
+  font-weight: 500;
   margin-bottom: 15px;
   color: #333;
 }
 .about-content2 p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   color: #666;
   text-align: justify;
 }
-@media screen and (max-width: 768px) {
-  .heading {
-    padding: 0px 20px;
-  }
-  .heading h1 {
-    font-size: 36px;
-  }
-  .heading p {
-    font-size: 17px;
-    margin-bottom: 0px;
-  }
-  .container {
-    padding: 0px;
-  }
-  .content {
-    padding: 20px;
-    flex-direction: column;
-  }
-  .about-image2 {
-    margin-right: 0px;
-    margin-bottom: 20px;
-  }
-  .about-content2 p {
-    padding: 0px;
-    font-size: 16px;
-  }
+.about-content2 .drop-cap {
+  float: left;
+  margin:0 10px;
+  padding:0 10px;
 }
-.container {
-  width: 90%;
-  margin: auto;
-  padding: 10px 20px;
-}
-.vision {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.about-image3 {
-  flex: 1;
-  margin-right: 40px;
-  overflow: hidden;
-}
-.about-image3 img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  transition: 0.5s ease;
-}
-.about-image3 :hover img {
-  transform: scale(1.2);
-}
-.about-content3 {
-  flex: 1;
-}
+
+
+
 .about-content3 h2 {
-  font-size: 23px;
+  font-size: 30px;
+  font-weight: 500;
   margin-bottom: 15px;
   color: #333;
 }
 .about-content3 p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   color: #666;
   text-align: justify;
 }
-@media screen and (max-width: 768px) {
-  .heading {
-    padding: 0px 20px;
-  }
-  .heading h1 {
-    font-size: 36px;
-  }
-  .heading p {
-    font-size: 17px;
-    margin-bottom: 0px;
-  }
-  .container {
-    padding: 0px;
-  }
-  .vision {
-    padding: 20px;
-    flex-direction: column;
-  }
-  .about-image3 {
-    margin-right: 0px;
-    margin-bottom: 20px;
-  }
-  .about-content3 p {
-    padding: 0px;
-    font-size: 16px;
-  }
-}
-.container {
-  width: 90%;
-  margin: auto;
-  padding: 10px 20px;
+.about-content3 .drop-cap {
+  float: right;
+  margin:0 10px;
+  padding:0 10px;
 }
 
-.impact {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
 
-.about-image4 {
-  flex: 1;
-  margin-left: 40px;
-  overflow: hidden;
-}
 
-.about-image4 img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  transition: 0.5s ease;
-}
-.about-image4 :hover img {
-  transform: scale(1.2);
-}
-.about-content4 {
-  flex: 1;
-}
 .about-content4 h2 {
-  font-size: 23px;
+  font-size: 30px;
+  font-weight: 500;
   margin-bottom: 15px;
   color: #333;
 }
 .about-content4 p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   color: #666;
   text-align: justify;
 }
-@media screen and (max-width: 768px) {
-  .heading {
-    padding: 0px 20px;
+.about-content4 .drop-cap {
+  float: left;
+  margin:0 10px;
+  padding:0 10px;
+}
+
+
+
+/* footer */
+footer {
+  background-color: #28334aff;
+  overflow-x: hidden;
+  padding: 20px;
+  color: #fff;
+  margin-top: 10px;
+}
+footer p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.tag ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+.fdiv {
+  padding-bottom: 20px;
+}
+.office h1,
+.office p {
+  margin: 0;
+}
+.div2 {
+  padding-top: 20px;
+}
+.div2 a {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.fh1 {
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .list {
+    margin: 20px 0px;
   }
-  .heading h1 {
-    font-size: 36px;
+  .office {
+    margin: 20px 0px;
   }
-  .heading p {
-    font-size: 17px;
-    margin-bottom: 0px;
+  .div2 {
+    padding-left: 0;
   }
-  .container {
-    padding: 0px;
-  }
-  .impact {
-    padding: 20px;
-    flex-direction: column;
-  }
-  .about-image4 {
-    margin-right: 0px;
-    margin-bottom: 20px;
-  }
-  .about-content4 p {
-    padding: 0px;
-    font-size: 16px;
+  .para {
+    margin: 20px 0px;
   }
 }

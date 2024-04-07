@@ -9,6 +9,10 @@ body {
   font-family: "Baloo 2", sans-serif;
 }
 
+body section h2{
+  text-decoration: underline;
+}
+
 .navbar {
   background-color: #f86e75;
 }
@@ -44,9 +48,8 @@ body {
 
 .scaption {
   background-color: rgba(0, 128, 128, 0.642);
-    border-radius: 20px;
+  border-radius: 20px;
 }
-
 
 /* Support */
 .don {
@@ -99,80 +102,77 @@ body {
   }
 }
 
-.home-ab a{
-    text-decoration: none;
-    color: rgb(0, 128, 128);
-    font-size: 50px;
-    font-weight: 700;
+.home-ab a {
+  text-decoration: none;
+  color: rgb(0, 128, 128);
+  font-size: 50px;
+  font-weight: 700;
 }
 
-.about-sub{
-    color: #f86e75;
-    font-weight: 600;
+.about-sub {
+  color: #f86e75;
+  font-weight: 600;
 }
 
 .about-para {
-  text-align: left;
+  text-align: justify;
 }
 
-.aimg{
-    border: 1px solid gray;
-    border-radius: 10px;
+
+.home-ev a {
+  text-decoration: none;
+  color: rgb(0, 128, 128);
+  font-size: 50px;
+  font-weight: 700;
 }
 
-.home-ev a{
-    text-decoration: none;
-    color: rgb(0, 128, 128);
-    font-size: 50px;
-    font-weight: 700;
+/* footer */
+footer {
+  background-color: #28334aff;
+  overflow-x: hidden;
+  padding: 20px;
+  color: #fff;
 }
-    /* footer */
-    footer {
-      background-color: #28334AFF;
-      overflow-x: hidden;
-      padding: 20px;
-      color: #fff;
-  }
-  footer p {
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      font-size: 15px;
-      margin-bottom: 10px;
-  }
-  .tag ul li a{
-      text-decoration: none;
-      color: #fff;
-      font-size: 15px;
+footer p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.tag ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+.fdiv {
+  padding-bottom: 20px;
+}
+.office h1,
+.office p {
+  margin: 0;
+}
+.div2 {
+  padding-top: 20px;
+}
+.div2 a {
+  font-size: 30px;
+  margin-right: 10px;
+}
 
+.fh1 {
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .list {
+    margin: 20px 0px;
   }
-  .fdiv {
-      padding-bottom: 20px;
-  }
-  .office h1, .office p {
-      margin: 0;
+  .office {
+    margin: 20px 0px;
   }
   .div2 {
-      padding-top: 20px;
+    padding-left: 0;
   }
-  .div2 a {
-      font-size: 30px;
-      margin-right: 10px;
+  .para {
+    margin: 20px 0px;
   }
-
-  .fh1{
-      font-size: 12px;
-  }
-  
-  @media(min-width: 768px) {
-      .list{
-          margin: 20px 0px;
-      }
-      .office{
-          margin: 20px 0px;
-      }
-      .div2 {
-          padding-left: 0;
-      }
-      .para{
-          margin: 20px 0px;
-      }
-  }
+}

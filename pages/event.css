@@ -42,26 +42,33 @@ body {
   font-weight: 800;
 }
 
-.gallery-image {
-  width: 100%;
-  border-radius: 10px;
-  height: 250px;
-  object-fit: cover;
-  transition: transform 0.2s;
+
+.card{
+  height: 400px;
+  width:450px;
+  margin: 10px 0;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
-.gallery-image:hover {
-  opacity: 0.5;
+.card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.card {
-  background-color: #adefd1ff;
-  border: none;
+.glr{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .card-img-overlay {
   transition: 0.4s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-img-overlay h2 {
@@ -78,16 +85,108 @@ body {
   transition: 0.5s ease-in-out;
   text-align: center;
 }
-
 .card:hover .card-img-overlay h2 {
   opacity: 1;
   transform: translateY(0);
-  /* border: 2px solid white; */
+  border: 2px solid white;
   border-radius: inherit;
 }
 .card:hover .card-img-overlay p {
   opacity: 1;
   transform: translateY(0);
-  /* border: 2px solid white; */
+  border: 2px solid white;
   border-radius: inherit;
 }
+
+
+
+/* SMALL */
+@media screen and (max-width:320px)  {
+  .card{
+    height: 215px;
+    width: 290px;
+  }
+}
+
+/* 
+MEDIUM */
+@media screen and (min-width:374px) {
+  .card{
+    height: 245px;
+    width: 328px;
+  }
+}
+/* LARGE */
+@media screen and (min-width:424px) {
+  .card{
+    height: 255px;
+    width: 384px;
+  }
+}
+
+/* TABLET */
+@media screen and (min-width:767px) {
+  .card{
+    height: 300px;
+    width:350px;
+  }
+}
+/* LAPTOP */
+@media screen and (min-width:1020px) {
+  .card{
+    height: 275px;
+    width:325px;
+  }
+}
+
+
+/* footer */
+footer {
+    background-color: #28334aff;
+    overflow-x: hidden;
+    padding: 20px;
+    color: #fff;
+  }
+  footer p {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .tag ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+  }
+  .fdiv {
+    padding-bottom: 20px;
+  }
+  .office h1,
+  .office p {
+    margin: 0;
+  }
+  .div2 {
+    padding-top: 20px;
+  }
+  .div2 a {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  
+  .fh1 {
+    font-size: 12px;
+  }
+  
+  @media (min-width: 768px) {
+    .list {
+      margin: 20px 0px;
+    }
+    .office {
+      margin: 20px 0px;
+    }
+    .div2 {
+      padding-left: 0;
+    }
+    .para {
+      margin: 20px 0px;
+    }
+  }
