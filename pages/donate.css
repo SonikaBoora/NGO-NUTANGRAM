@@ -116,5 +116,24 @@
   }
   /* donate end */
   
+  #scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #1c8ffb;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 25%;
+    font-size: 16px;
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: #ffa500;
+  }
   
   
