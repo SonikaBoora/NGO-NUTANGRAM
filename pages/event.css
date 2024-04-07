@@ -10,7 +10,7 @@ body {
 }
 
 .navbar {
-  background-color: #f86e75;
+  background-color: #1b961b;
 }
 
 #logo-img {
@@ -58,13 +58,13 @@ body {
 
 
 #text-ngo {
-  color: rgb(0, 128, 128);
+  color: rgb(255, 255, 255);
   font-weight: 600;
   margin: auto;
 }
 
 #btn {
-  background-color: rgb(0, 128, 128);
+  background-color: #ffa500;
   color: white;
   font-weight: 800;
 }
@@ -105,14 +105,14 @@ body {
 
 .card-img-overlay h2 {
   opacity: 0;
-  background-color: #f86e75;
+  background-color:  #1db01d;
   transform: translateY(-50%);
   transition: 0.5s ease-in-out;
   text-align: center;
 }
 .card-img-overlay p {
   opacity: 0;
-  background-color: #f86e75;
+  background-color:#22b722;
   transform: translateY(-50%);
   transition: 0.5s ease-in-out;
   text-align: center;
@@ -207,6 +207,21 @@ footer {
   .fh1 {
     font-size: 12px;
   }
+  footer ul li a:hover{
+    background-color: #fff;
+    color: #28334aff;
+    border-radius: 10px;
+    }
+    footer .div2 i{
+    padding: 10px;
+    }
+    footer .div2 i:hover{
+      background-color: #fff;
+      color: #28334aff;
+      border-radius: 10px;
+      padding: 10px;
+    }
+  
   
   @media (min-width: 768px) {
     .list {
