@@ -51,6 +51,125 @@ body section h2{
   border-radius: 20px;
 }
 
+/* donate start */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-family: "Baloo 2", sans-serif;
+  color: navy;
+
+}
+
+.modal-content {
+  background-color: #18e729;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  
+}
+
+.close {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 42px;
+  float: right;
+  position: relative;
+  top: 6px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.modal h2{
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 16px;
+  font-weight: bolder;
+}
+
+#qrtext{
+  text-align: center;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select {
+  padding: 8px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="file"] {
+  margin-top: 16px;
+}
+
+.qr{
+    height: 200px;
+    width: 90%;
+    margin: auto;
+}
+
+input[type="submit"] {
+  margin-top: 24px;
+  padding: 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+
+@media (max-width: 600px) {
+  .modal-content {
+    width: 90%;
+  }
+
+}
+
+@media (max-width: 426px) {
+  .modal-content {
+    width: 80%;
+  }
+
+  .close {
+    right: 9px;
+  top: 6px;
+  font-size: 37px;
+  }
+}
+/* donate end */
+
 /* Support */
 .don {
   text-align: center;
