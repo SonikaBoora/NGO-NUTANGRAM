@@ -24,6 +24,12 @@ body section h2{
   border-radius: 50%;
 }
 
+#logo-img:hover{
+  transform: scale(1.3);
+  rotate: 360deg;
+  transition: all 0.7s ease-in-out 0.2s;
+}
+
 #mynavbar ul li {
   margin-right: 50px;
 }
@@ -170,6 +176,8 @@ input[type="submit"]:hover {
 }
 /* donate end */
 
+
+
 /* Support */
 .don {
   text-align: center;
@@ -237,6 +245,15 @@ input[type="submit"]:hover {
   text-align: justify;
 }
 
+.aimg:hover{
+  transform: scale(1.04);
+  transition: all 0.5s ease 0.2s;
+}
+
+.aimg2:hover{
+  transform: scale(1.02);
+  transition: all 0.3s ease 0.2s;
+}
 
 .home-ev a {
   text-decoration: none;
