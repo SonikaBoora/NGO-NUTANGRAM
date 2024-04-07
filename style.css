@@ -31,14 +31,35 @@ body section h2{
 }
 
 #mynavbar ul li {
-  margin-right: 50px;
+  margin-right: 20px;
+  white-space: nowrap;
 }
+#mynavbar ul div {
+  margin-right: 0;
+}
+
+@media (max-width:376px) {
+  #logo-img{
+    width: 40px;
+    height: 40px;
+  }
+  #text-ngo{
+    font-size: 14px;
+  }
+}
+
 
 #mynavbar ul li a {
   color: white;
   font-size: 20px;
   font-weight: 500;
 }
+@media (max-width:769px) {
+  #mynavbar ul li a{
+    font-size: 16px;
+  }
+}
+
 
 #text-ngo {
   color: rgb(0, 128, 128);
