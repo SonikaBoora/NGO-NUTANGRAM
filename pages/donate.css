@@ -116,6 +116,7 @@
   }
   /* donate end */
   
+  
   #scrollToTopBtn {
     display: none;
     position: fixed;
@@ -128,12 +129,133 @@
     color: white;
     cursor: pointer;
     padding: 10px;
-    border-radius: 25%;
-    font-size: 16px;
+    font-size: 14px;
   }
   
   #scrollToTopBtn:hover {
     background-color: #ffa500;
   }
-  
-  
+
+
+
+
+  /* navbar css */
+  .navbar {
+    background-color: #1b961b;
+    }
+    
+    #logo-img {
+      width: 60px;
+      height: 60px;
+      background-color: white;
+      border-radius: 50%;
+    }
+    
+    #logo-img:hover{
+      transform: scale(1.3);
+      rotate: 360deg;
+      transition: all 0.7s ease-in-out 0.2s;
+    }
+    
+    #mynavbar ul li {
+      margin-right: 20px;
+      white-space: nowrap;
+    }
+    #mynavbar ul div {
+      margin-right: 0;
+    }
+    
+    
+    
+    #mynavbar ul li a {
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+    }
+    @media (max-width:769px) {
+      #mynavbar ul li a{
+        font-size: 16px;
+      }
+    }
+    
+    #mynavbar ul li a {
+      position: relative;
+    }
+    
+    #mynavbar ul li a:after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 0%;
+      content: '.';
+      color: transparent;
+      background: #ffeeee;
+      height: 1px;
+    }
+    
+    
+    #mynavbar ul li a {
+      transition: all 2s;
+    }
+    
+    #mynavbar ul li a:after {
+      text-align: left;
+      content: '.';
+      margin: 0;
+      opacity: 0;
+    }
+    #mynavbar ul li a:hover {
+      color: #fff;
+      z-index: 1;
+    }
+    #mynavbar ul li a:hover:after {
+      z-index: -10;
+      animation: fill 1s forwards;
+      -webkit-animation: fill 1s forwards;
+      -moz-animation: fill 1s forwards;
+      opacity: 1;
+    }
+    
+    
+    /* Keyframes */
+    @-webkit-keyframes fill {
+      0% {
+        width: 0%;
+        height: 1px;
+      }
+      50% {
+        width: 100%;
+        height: 1px;
+      }
+      100% {
+        width: 100%;
+        height: 100%;
+        background: #fecc39;
+      }
+    }
+    
+        
+    .navbar-text {
+      color: rgb(255, 255, 255);
+      font-weight: 600;
+      margin: auto;
+      font-size: 20px;
+    }
+    
+    @media (max-width:400px) {
+      #logo-img{
+        width: 40px;
+        height: 40px;
+      }
+      #text-ngo{
+        font-size: 14px;
+      }
+    }
+    
+    #btn {
+      background-color: #ffa500;;
+      color: white;
+      font-weight: 800;
+    }

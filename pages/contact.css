@@ -85,7 +85,7 @@ form {
   border: 2px gray solid;
   border-radius: 10px;
 }
-.btnn {
+.btnnn {
   border-radius: 10px;
   background-color: #ffffff;
   color: #25c425d1;
@@ -93,7 +93,7 @@ form {
   font-size: 20px;
   font-weight: 700;
 }
-.btnn:hover {
+.btnnn:hover {
   background-color: transparent;
   color: rgb(255, 255, 255);
   border: 2px solid rgb(255, 255, 255);
